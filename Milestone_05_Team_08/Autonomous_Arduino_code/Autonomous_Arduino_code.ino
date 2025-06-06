@@ -15,7 +15,7 @@ const int servoRightLimit = 140;
 
 // === ESC PWM range ===
 const int minPulse = 1000;    // ESC min pulse (µs)
-const int maxPulse = 1100;    // ESC max pulse (µs)
+const int maxPulse = 1050;    // ESC max pulse (µs)
 
 // === MPU6050 Yaw ===
 long gyro_z_cal = 0;
