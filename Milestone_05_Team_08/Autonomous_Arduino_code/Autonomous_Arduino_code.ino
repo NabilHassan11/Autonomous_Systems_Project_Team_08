@@ -97,7 +97,8 @@ void loop() {
   unsigned long now = millis();
   if (now - lastEncoderSend >= encoderSendInterval) {
   lastEncoderSend = now;
-
+    
+  // if this doesn't work comment it and uncomment the one below it and try it
   noInterrupts();
     long ticks = encoderTicks;
     float rpm = (encoderTicks * 600.0) / 85.0;
